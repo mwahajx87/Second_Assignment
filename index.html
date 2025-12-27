@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Second-Assignment</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h1>Student Registration Form</h1>
+        </legend>
+            <form>
+    <label for="rolln">Roll no. :</label>
+    <input type="number" id="rolln" required size="4" placeholder="xxxx"><br><br>
+
+    <label for="fname">Student name :</label>
+    <input type="text" id="fname" required placeholder="First Name"> - 
+    <input type="text" id="lname" placeholder="Last Name (optional)"><br><br>
+
+    <label for="fathern">Father name :</label>
+    <input type="text" id="father" required placeholder="Father Name"><br><br>
+
+    <label for="dob_day">Date of birth :</label>
+    <input type="text" id="dob_day" required placeholder="Day" size="2"> - 
+    <input type="text" id="dob_month" required placeholder="Month" size="2"> - 
+    <input type="text" id="dob_year" required placeholder="Year" size="4"> 
+    <label>(DD-MM-YYYY)</label><br><br>
+
+    <label for="mobile">Mobile no. :</label>
+    <input type="text" value="+92" size="2" required> - 
+    <input type="number" id="mobile" placeholder="xxxxxxxxxx" required><br><br>
+
+    <label for="email">Email id :</label>
+    <input type="email" id="email" required placeholder="Enter Your Email" ><br><br>
+
+    <label for="cpsw">Password :</label>
+    <input type="password" id="cpsw" required placeholder="Enter Your Password"><br><br>
+    
+    <label for="psw">Confirm Password :</label>
+    <input type="password" id="psw" required placeholder="Confirm Your Password"><br><br>
+
+    <label>Gender :</label>
+    <input type="radio" name="gender" required id="male"> 
+    <label for="male">Male</label>
+    <input type="radio" name="gender" required id="female"> 
+    <label for="female">Female</label><br><br>
+
+    <label>Subject :</label>
+    <input type="checkbox" id="sbj_1"> <label for="sbj_1">Science</label>#ffffff#8083ff
+    <input type="checkbox" id="sbj_2"> <label for="sbj_2">English</label>
+    <input type="checkbox" id="sbj_3"> <label for="sbj_3">Mathematics</label>
+    <input type="checkbox" id="sbj_4"> <label for="sbj_4">Urdu</label>
+    <input type="checkbox" id="sbj_5"> <label for="sbj_5">Social Studies</label><br><br>
+
+    <label for="sbj">Education :</label>
+    <select id="sbj">
+        <option value="mtc" selected >Matric</option>
+        <option value="inter">Intermediate</option>
+        <option value="grad">Graduation</option>
+    </select><br><br>
+
+    <label for="photo">Student photo :</label>
+    <input type="file" id="photo" required><br><br>
+
+    <label for="city">City :</label>
+    <input type="text" id="city" placeholder="Enter Your City Name" required><br><br>
+
+    <label for="address">Address :</label><br>
+    <textarea id="address" rows="5" cold="10" required placeholder="Enter Your Full Address"></textarea><br><br>
+
+    <input type="submit" value="Register">
+</form>
+    </fieldset>
+</body>
+</html>
